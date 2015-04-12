@@ -30,6 +30,54 @@
                 <next>
                   <block type="oled_drawtext" id="45">
                     <field name="TEXT">I come in peace</field>
+                    <next>
+                      <block type="oled_setcursor" id="46" inline="true">
+                        <value name="STARTX">
+                          <block type="math_number" id="47">
+                            <field name="NUM">0</field>
+                          </block>
+                        </value>
+                        <value name="STARTY">
+                          <block type="math_number" id="49">
+                            <field name="NUM">50</field>
+                          </block>
+                        </value>
+                        <next>
+                          <block type="oled_drawtext" id="50">
+                            <field name="TEXT">Watch me dance</field>
+                            <next>
+                              <block type="movement_forward" id="60">
+                                <next>
+                                  <block type="robot_delay" id="62" inline="true">
+                                    <value name="DELAY">
+                                      <block type="math_number" id="69">
+                                        <field name="NUM">2000</field>
+                                      </block>
+                                    </value>
+                                    <next>
+                                      <block type="movement_right" id="79">
+                                        <next>
+                                          <block type="robot_delay" id="80" inline="true">
+                                            <value name="DELAY">
+                                              <block type="math_number" id="81">
+                                                <field name="NUM">5000</field>
+                                              </block>
+                                            </value>
+                                            <next>
+                                              <block type="movement_stop" id="91"></block>
+                                            </next>
+                                          </block>
+                                        </next>
+                                      </block>
+                                    </next>
+                                  </block>
+                                </next>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
                   </block>
                 </next>
               </block>
