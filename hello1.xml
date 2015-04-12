@@ -87,12 +87,7 @@
                                                           </block>
                                                         </value>
                                                         <next>
-                                                          <block type="controls_whileUntil" id="26" inline="false">
-                                                            <field name="MODE">WHILE</field>
-                                                            <next>
-                                                              <block type="movement_stop" id="27"></block>
-                                                            </next>
-                                                          </block>
+                                                          <block type="movement_stop" id="27"></block>
                                                         </next>
                                                       </block>
                                                     </next>
